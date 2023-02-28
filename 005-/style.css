@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #e9d5da;
+}
+h1{
+    text-align: center;
+    color: #732634;
+}
+p{
+    color: #8C2641;
+    font-size: 1.1em;
+}
+#calculo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #D9B4BE;
+    padding: 50px;
+    border-radius: 30px;
+}
+input[type=button]{
+    background-color: #732634;
+    border: 0;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}

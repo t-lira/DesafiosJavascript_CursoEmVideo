@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de multas</title>
+    <style>
+        #container{
+            background-color: #F2E8DF;
+            padding: 50px;
+            width: 30%;
+        }
+        input[type=button]{
+            background-color: #F2B263;
+            border: none;
+            border-radius: 30px;
+            padding: 10px;
+            font-weight: bolder;
+            margin-left: 20px;
+        }
+        input[type=number]{
+            border: none;
+            border-radius: 20px;
+            padding: 8px;
+            font-weight: bolder;
+        }
+        h1{
+            color: #86A69D;
+            margin-left: 10%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Sistema de multas</h1>
+    <div id="container">
+    Velocidade do carro: <input type="number" name="velo" id="ivelo"> Km/h
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
